@@ -1,0 +1,238 @@
+.LandingPage{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.HeaderHowsection{
+    font-size: 50px;
+    width: 1162px; 
+    height: 90px; 
+    left: 0px; 
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: Rowdies; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.HowsectionText{
+    font-size: 20px;
+    width: 610px;
+    height: 110px;  position: absolute; text-align: center; color: #888888;  font-family: Rowdies; font-weight: 400; word-wrap: break-word
+}
+
+
+
+/* RESPONSIVE DESIGN SIDE */
+
+@media (max-width: 1216px) {
+    .CallToAction, .HeroText{
+        margin-left: -200px;
+    }
+
+    .HowSection{
+        margin-left: -150px;
+    }
+
+    .HeaderHowsection{
+        font-size: 40px;
+    }
+
+    .ProofSection{
+        margin-left: -180px;
+    }
+
+    .PricePlanSections{
+        margin-left: -170px;
+    }
+}
+
+@media (max-width: 1216px) {
+    .CallToAction{
+        margin-left: -400px;
+    }
+  
+}
+
+@media (max-width: 982px) {
+    .CallToAction{
+        margin-left: -400px;
+    }
+    .HeaderHowsection{
+        font-size: 30px;
+    }
+  
+    .HowsectionText{
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .HowSection{
+        margin-left: -270px;
+    }
+
+    .HeroText{
+        margin-left: -270px;
+    }
+  
+    .ProofSection{
+        scale: 0.8;
+        margin-left: -270px;
+    }
+
+    .PricePlanSections{
+        margin-left: -270px;
+        scale: 0.8;
+    }
+}
+
+
+@media (max-width: 806px) {
+    .CallToAction{
+        margin-left: -600px;
+    }
+  
+}
+
+@media (max-width: 630px) {
+    .CallToAction{
+        margin-left: -630px;
+    }
+    .HeaderHowsection{
+        font-size: 25px;
+    }
+  
+    .HowsectionText{
+        margin-top: -33px;
+        font-size: 15px;
+    }
+
+    .HowSection{
+        margin-left: -330px;
+    }
+
+    .HeroText{
+        margin-left: -340px;
+        scale: 0.8;
+    }
+  
+    .ProofSection{
+        scale: 0.7;
+        margin-left: -330px;
+    }
+
+    .PricePlanSections{
+        margin-left: -350px;
+        scale: 0.8;
+    }
+
+
+}
+
+
+
+@media (max-width:  730px) {
+    .Statistic3{
+        margin-top: 150px;
+        margin-left: -400px;
+    }
+   
+      .Statistic2, .Statistic1{
+        margin-left: 160px;
+      }
+}
+
+
+
+
+@media (max-width: 500px) {
+    .CallToAction{
+        margin-left: -760px;
+    }
+    .HeaderHowsection{
+        font-size: 20px;
+    }
+  
+    .HowsectionText{
+        margin-top: -43px;
+        font-size: 12px;
+        margin-left: 40px;
+        width: 500px;
+    }
+
+    .HowSection{
+        margin-left: -380px;
+        width: 500px;
+    }
+
+    .HeroText{
+        margin-left: -380px;
+        scale: 0.7;
+    }
+  
+    .ProofSection{
+        scale: 0.6;
+        margin-left: -380px;
+        margin-top: -50px;
+    }
+
+    .PricePlanSections{
+        margin-left: -400px;
+        scale: 0.7;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .CallToAction{
+        margin-top: 2px;
+        margin-left: -880px;
+    }
+    .HeaderHowsection{
+        font-size: 18px;
+    }
+  
+    .HowsectionText{
+        margin-top: -43px;
+        font-size: 12px;
+        margin-left: 90px;
+        width: 400px;
+    }
+
+    .HowSection{
+        scale: 0.8;
+        margin-left: -450px;
+        width: 500px;
+    }
+
+    .HeroText{
+        margin-left: -460px;
+        scale: 0.57;
+    }
+  
+    .ProofSection{
+        scale: 0.57;
+        margin-left: -450px;
+        margin-top: -50px;
+    }
+
+    .PricePlanSections{
+        margin-left: -460px;
+        scale: 0.6;
+    }
+
+
+}
+
